@@ -295,8 +295,17 @@
 				</section>
 				<div class="distribution-block">
 					<p class="distribution-title">Підпишіться на розсилку</p>
-					<form action="distribution_form">
-						<input type="email" name="user_mail" placeholder="E-mail" required class="distribution-field" />
+					<form class="distribution-form" action="distribution_form">
+						<label>
+							<input
+								type="email"
+								name="user_mail"
+								id="user_mail"
+								placeholder="E-mail"
+								required
+								class="distribution-field"
+							/>
+						</label>
 						<button type="submit" class="distribution-btn">
 							Підписатися
 							<svg class="distribution-icon" width="24" height="24">
